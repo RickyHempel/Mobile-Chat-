@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ricky.friendsactivity.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="46dp"
+        android:text="Login"
+        app:layout_constraintEnd_toStartOf="@+id/imageProfilee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="46dp"
+        android:text="LOGOUT"
+        app:layout_constraintBottom_toTopOf="@+id/imageProfilee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageProfilee"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageProfilee"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="38dp"
+        android:layout_marginEnd="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/textUserName"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLogout"
+        app:layout_constraintStart_toEndOf="@+id/buttonLogin"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogout"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="textUserName"
+        app:layout_constraintBottom_toTopOf="@+id/textUserEMail"
+        app:layout_constraintStart_toStartOf="@+id/imageProfilee"
+        app:layout_constraintTop_toBottomOf="@+id/imageProfilee" />
+
+    <TextView
+        android:id="@+id/textUserEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="textUserEMail"
+        app:layout_constraintBottom_toTopOf="@+id/textUserId"
+        app:layout_constraintStart_toStartOf="@+id/textUserName"
+        app:layout_constraintTop_toBottomOf="@+id/textUserName" />
+
+    <TextView
+        android:id="@+id/textUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:text="textUserID"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFriends"
+        app:layout_constraintStart_toStartOf="@+id/textUserEMail"
+        app:layout_constraintTop_toBottomOf="@+id/textUserEMail" />
+
+    <Button
+        android:id="@+id/buttonFriends"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="FRIENDS"
+        app:layout_constraintBottom_toTopOf="@+id/buttonChat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textUserId" />
+
+    <Button
+        android:id="@+id/buttonChat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="CHAT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFriends" />
+
+</android.support.constraint.ConstraintLayout>

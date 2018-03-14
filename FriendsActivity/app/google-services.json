@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "782206628860",
+    "firebase_url": "https://friendsactivity-79339.firebaseio.com",
+    "project_id": "friendsactivity-79339",
+    "storage_bucket": "friendsactivity-79339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782206628860:android:5a038e0fdc6c191e",
+        "android_client_info": {
+          "package_name": "com.example.ricky.friendsactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782206628860-gkoqgq0d0gecie5nhoe95m2cblpmn9me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ricky.friendsactivity",
+            "certificate_hash": "9d680c03c14c8a76652742f4023bd240c28d8657"
+          }
+        },
+        {
+          "client_id": "782206628860-ig2q6fs1koo7epuc87k8vgh0q03ojj9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-gGUtiJTftcLgXMOn72rTS3my1IXb-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782206628860-ig2q6fs1koo7epuc87k8vgh0q03ojj9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
